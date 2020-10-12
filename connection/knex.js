@@ -15,4 +15,4 @@ const connection = {
 	},
 };
 
-module.exports.connection = knex(connection);
+module.exports = knex(connection);
