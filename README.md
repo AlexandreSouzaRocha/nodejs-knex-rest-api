@@ -1,10 +1,6 @@
 # nodejs-knex-rest-api
 Rest API with NodeJs and Knex(Query Builder)
 
-# everest-bradesco
-
-Everest-bv is an API for create and managing BV payments
-
 *******
 Content Table
 1. [Working](#motiva)
