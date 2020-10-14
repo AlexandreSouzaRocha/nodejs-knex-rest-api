@@ -42,8 +42,8 @@ module.exports = knex(connection);
 
 ## Resources
 *******
-| Resource | Method | Description
-|  :-------:  |---------|
+| Resource | Method | Description |
+|  :-------:  |---------|-----------|
 |```/v1/user``` | POST | Register a user on databse |
 
 *******
@@ -64,7 +64,7 @@ Register a user on database
 ```
 
 | Field | Description | Type | Required |
-|-------|-----------|  
+|-------|-----------|-----------|-----------|
 | userName | User first name | String | `Yes` |
 | userLastName | User last name | String | `Yes` |
 | birthDate | User birth date | Date (Format `YYYY-MM-DD`) | `Yes` |
