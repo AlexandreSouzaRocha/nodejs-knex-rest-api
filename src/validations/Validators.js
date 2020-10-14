@@ -34,6 +34,8 @@ class Validators {
 						.error(Error(INVALID_FIELD.replace('{}', 'birthDate'))),
 					documentNumber: Joi.string()
 						.regex(DOCUMENT)
+						.min(11)
+						.max(11)
 						.required()
 						.error(Error(INVALID_FIELD.replace('{}', 'birthDate'))),
 				});
